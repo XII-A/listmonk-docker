@@ -1,0 +1,3 @@
+listmonk.example.com {
+    reverse_proxy app:9000
+}
