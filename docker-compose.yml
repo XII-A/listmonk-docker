@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
     networks:
       - listmonk
-    hostname: listmonk.example.com
+    hostname: mail-list.erpslick.com
     depends_on:
       - db
     command:
